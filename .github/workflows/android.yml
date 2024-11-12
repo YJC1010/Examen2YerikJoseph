@@ -2,9 +2,9 @@ name: Android CI2
 
 on:
   push:
-    branches: [ "test" ]
+    branches: [ "develop" ]
   pull_request:
-    branches: [ "test" ]
+    branches: [ "develop" ]
 
 jobs:
   build:
