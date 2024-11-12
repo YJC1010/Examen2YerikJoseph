@@ -60,7 +60,7 @@ public class CalculadoraTest {
         int baseDestino = 3;
         assertEquals("ff", Calculadora.convertirADestino(numeroDecimal, baseDestino));
     }
-    // Prueba unitaria para el método 'Encuentra' cuando el elemento está presente en la listaa
+    // Prueba unitaria para el método 'Encuentra' cuando el elemento está presente en la listaassa
     @Test
     public void testEncuentraElementoPresente() {
         List<Integer> lista = Arrays.asList(1, 2, 3, 4, 5);
